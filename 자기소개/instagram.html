@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduce Myself</title>
+  </head>
+ 
+  <body>
+      <div class="home_icon"><a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+      </i></div>
+
+    <div class="short_info">
+        
+      <div class="short_info_box">
+        <div class="hello">Hello I am SOMIN AN</div>
+        <img src="img/hello.png" alt="">
+        
+          <div class="instagram instagram_icon">
+            
+                <i class="fab fa-instagram fa-2x"></i>
+            thalsdks
+          </div>
+        </div>
+        <div class="click_icon">click above icon</div>
+      </div>
+      </div>
+      <div class="about_me">
+        <span>About me</span>
+        <div class="about_me_detail">
+            <div class="major">
+                <div class="major_name">📌 mobile system engineering</div>
+                <img src="img/major.png" alt="">
+            </div>
+            <div class="interest">
+              <div class="interest_study">📌 interest in back & front end</div>
+              <img src="img/interest.png" alt="">
+          </div>
+          <div class="hobby">
+            <div class="mbti_name">📌 Love Netflix & YouTube</div>
+            <img src="img/hobby.png" alt="">
+        </div>
+          <div class="mbti">
+              <div class="mbti_name">📌 MBTI is ISFJ</div>
+              <img src="img/mbti.png" alt="">
+          </div>
+        </div>
+        <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous"
+      ></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./bxslide/dist/jquery.bxslider.min.js"></script>
+    <title>내일로 여행 : 로그인</title>
+
+    
+</head>
+<body>
+
+<div class="login_box">
+  <a href="#"><img src="img/back.png" class="login_box_back_button"></a>
+   <a href="#"><img src="img/home.png" class="login_box_home_button"></a>
+   
+    <div class="login_box_title">간편하게 로그인하기</div>
+    <div class="login_box_text">귀찮은 입력없이 <br>카카오로 쉽고 빠르게 회원가입하세요.🚀</div>
+    <a href="#"><img class="login_box_button" src="img/login_button.png"></a>
+    <div class="login_box_describe">
+        <div class="login_box_describe_convenience">
+            <img src="img/convenience.png">
+            <span>편의성</span>
+        </div>
+        <div class="login_box_describe_time">
+            <img src="img/time.png">
+            <span>시간 단축</span>
+        </div>
+        <div class="login_box_describe_infomation">
+            <img src="img/info.png">
+            <span>풍부한 정보제공</span>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
+@import "commen.css";
+@import "login.css";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+body {
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+/*웹*/
+@media screen and (min-width: 769px){
+
+    .login_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+
+    }
+    .login_box_home_button{
+        width: 30px;
+        margin-left: 400px;
+        
+     
+    }
+    .login_box_back_button{
+        display: none;
+    }
+
+
+    .login_box_title{
+    font-size: 25px;
+    color: #2d3436;
+    font-weight: 700;
+
+    }
+
+    .login_box_text{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+
+    }
+
+    .login_box_button{
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    }
+
+
+    .login_box_describe{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    }
+
+.login_box_describe img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.login_box_describe_infomation{
+    text-align: center;
+}
+.login_box_describe span{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    } 
+}
+
+
+/*모바일*/
+@media screen and (max-width: 768px){
+    .login_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+
+    }
+     .login_box_home_button{
+        display: none;
+    }
+      .login_box_back_button{
+        width: 20px;
+        margin-left: 400px;
+        
+        width: 20px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    }
+
+    .login_box_title{
+    font-size: 23px;
+    color: #2d3436;
+    font-weight: 700;
+
+    }
+
+    .login_box_text{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+
+    }
+
+    .login_box_button{
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    }
+
+
+    .login_box_describe{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    }
+
+.login_box_describe img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+    .login_box_describe_time{
+        margin-left: 15px;
+    }
+.login_box_describe_infomation{
+    text-align: center;
+}
+.login_box_describe span{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    } 
+}
+
+
